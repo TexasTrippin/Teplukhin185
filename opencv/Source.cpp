@@ -1,24 +1,24 @@
-#include "opencv2/highgui/highgui.hpp" 
-#include "opencv2/imgproc/imgproc.hpp"
-#include <iostream>
-#include <stdio.h>
-#include <stdlib.h>
-using namespace cv;
+#include "opencv2/highgui/highgui.hpp" //определяет кросс-платформенные функции взаимодействия с оконной системой;
+#include "opencv2/imgproc/imgproc.hpp" // определяет основные/традиционные функции цифровой обработки изображений: отрисовка кривых и тому подобное.
+#include <iostream> // Объявляет объекты, управляющие чтением из стандартных потоков и записью в них. Это, как правило, единственный заголовок, необходимый для ввода и вывода из программы на C++.
+#include <stdio.h>  // стандартный заголовочный файл ввода-вывода
+#include <stdlib.h> // аголовочный файл стандартной библиотеки языка Си, который содержит в себе функции, занимающиеся выделением памяти, контролем процесса выполнения программы, преобразованием типов и другие
+using namespace cv; 
 using namespace std;
 int main()
 {
 
-	/* //Блок рисования окна
-	int height = 520;
-	int width = 840;
-	Mat img(height, width, CV_8UC3);
-	Point textOrg(300, img.rows / 2);
-	int fontFace = FONT_HERSHEY_SIMPLEX;
-	double fontScale = 1;
-	Scalar color(0, 0, 20);
-	putText(img, "Step By Step", textOrg, fontFace, fontScale, color);
-	namedWindow("Hello World", 0);
-		imshow("Hello World", img);*/
+	 //Блок рисования окна
+	/*int height = 520; // задаем высоту (int - тип данных, целое)
+	int width = 840; // задаем ширину
+	Mat img(height, width, CV_8UC3); // Mat(создание матрицы) (CV_8UC3) 8-разрядная целочисленная матрица / изображение без знака с 3 каналами
+	Point textOrg(300, img.rows / 2); //Point (координаты x,y) , 
+	int fontFace = FONT_HERSHEY_SIMPLEX; //настройка шрифта , FONT_HERSHEY_SIMPLEX - тип шрифта
+	double fontScale = 1; //double - числовой тип данных , fontScale — переменная типа double, коэффициент масштабирования шрифта, умножаемый на базовый размер шрифта.
+	Scalar color(0, 0, 20); // Тип Scalar широко используется в OpenCV для передачи значений пикселей, цвет
+	putText(img, "Step By Step", textOrg, fontFace, fontScale, color); //  используется для рисования текстовой строки на любом изображении
+	namedWindow("Hello World", 0); // название окна
+		imshow("Hello World", img); */ //отображает изображение в градациях серого на рисунке. использует диапазон отображения по умолчанию для типа данных изображения и оптимизирует свойства рисунка, осей и объекта изображения для отображения изображения
 	//Запрос от пользователя какой файл ему требуется открыть
 	setlocale(LC_ALL, "Russian"); //русификатор
 	string filename; //строчка с названием перменной 
@@ -32,9 +32,9 @@ int main()
 
 	//Блок загрузки изображения
 	Mat img; //создает матрицу
-	img = imread(filename, 1); //image.jpg
-	namedWindow("Hello World", WINDOW_AUTOSIZE);
-	imshow("Hello World", img);
+	img = imread(filename, 1); //image.jpg (imread -  считывает изображение из файла, заданного , выводя формат файла из его содержимого.)
+	namedWindow("Hello World", WINDOW_AUTOSIZE); // название окна, авторазмер
+	imshow("Hello World", img); // отображает изображение в градациях серого на рисунке. использует диапазон отображения по умолчанию для типа данных изображения и оптимизирует свойства рисунка, осей и объекта изображения для отображения изображения
 		waitKey(0);
 		system("pause");
 		return (0);
