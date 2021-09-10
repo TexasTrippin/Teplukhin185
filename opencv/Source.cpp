@@ -8,7 +8,7 @@ using namespace std;
 int main()
 {
 
-	/* //���� ��������� ����
+	/* //Блок рисования окна
 	int height = 520;
 	int width = 840;
 	Mat img(height, width, CV_8UC3);
@@ -19,19 +19,19 @@ int main()
 	putText(img, "Step By Step", textOrg, fontFace, fontScale, color);
 	namedWindow("Hello World", 0);
 		imshow("Hello World", img);*/
-	//������ �� ������������ ����� ���� ��� ��������� �������
-	setlocale(LC_ALL, "Russian");
-	string filename;
-	cout << "��� ����� ";
-	cin >> filename;
-	cout << "����� ���� "<<filename<<endl;
+	//Запрос от пользователя какой файл ему требуется открыть
+	setlocale(LC_ALL, "Russian"); //русификатор
+	string filename; //строчка с названием перменной 
+	cout << "Имя файла "; //вывод значения <<
+	cin >> filename;  // ввод значения >>
+	cout << "Ввели файл "<<filename<<endl; //endl текст будет выведен на след. строке 
 
 	
 
 
 
-	//���� �������� �����������
-	Mat img;
+	//Блок загрузки изображения
+	Mat img; //создает матрицу
 	img = imread(filename, 1); //image.jpg
 	namedWindow("Hello World", WINDOW_AUTOSIZE);
 	imshow("Hello World", img);
