@@ -35,25 +35,25 @@ int main()
 	img = imread("image1.jpg", 1); //image.jpg (imread -  считывает изображение из файла, заданного , выводя формат файла из его содержимого.)
 	namedWindow("Hello World", WINDOW_AUTOSIZE); // название окна, авторазмер
 	imshow("Hello World", img); // отображает изображение в градациях серого на рисунке. использует диапазон отображения по умолчанию для типа данных изображения и оптимизирует свойства рисунка, осей и объекта изображения для отображения изображения
-	Mat src_gray;
-	Mat canny_output;
-	cvtColor(img, src_gray, COLOR_RGB2BGR);
-	blur(src_gray, src_gray, Size(3, 3));
+	Mat src_gray; //Создание матрицы с названием src_gray
+	Mat canny_output; // Создание матрицы
+	cvtColor(img, src_gray, COLOR_RGB2BGR); //  cvtColor конвертирует изображения из одного цветового пространства в другое
+	blur(src_gray, src_gray, Size(3, 3)); // размытие
 	/*double otsu_thresh_val = threshold(src_gray, img, 0, 255, THRESH_BINARY | THRESH_OTSU);*/
 	/*double high_thresh_val = otsu_thresh_val, lower_thresh_val = otsu_thresh_val * 0.5;*/
 	/*cout << otsu_thresh_val;*/
-	double lower_thresh_val=100, high_thresh_val= 300;
-	Canny(src_gray, canny_output,lower_thresh_val, high_thresh_val, 3);
+	double lower_thresh_val=100, high_thresh_val= 300; // нижний и верхний порог, нижний отвечает за шумы изображения, если задать много верхнего, то будет просто черное изображение
+	Canny(src_gray, canny_output,lower_thresh_val, high_thresh_val, 3); // оператор обнаружения границ изображения
 	/*char* source_grey_window = "Серое изображение";*/
 	namedWindow("Серое изображение", WINDOW_AUTOSIZE);
 	imshow("Серое изображение", canny_output);
 	imwrite("canny_output.jpg", canny_output);
 	
 	     // Моменты и центр масс findContours
-		RNG rng(12345);
-		vector<vector<Point>>contours;
-		vector<Vec4i>hierarchy;
-		findContours(canny_output, contours, hierarchy, RETR_TREE, CHAIN_APPROX_SIMPLE, Point(0, 0));
+		RNG rng(12345); // генератор случайных чисел
+		vector<vector<Point>>contours; // вектор
+		vector<Vec4i>hierarchy; 
+		findContours(canny_output, contours, hierarchy, RETR_TREE, CHAIN_APPROX_SIMPLE, Point(0, 0)); // нахождение контуров
 		vector<Moments>mu(contours.size());
 		for (int i = 0; i < contours.size(); i++)
 		{
@@ -74,8 +74,8 @@ int main()
 		Mat drawing = Mat::zeros(canny_output.size(), CV_8UC3); // CV_8UC3 изображение без знака с 3 каналами
 		for (int i = 0; i < contours.size(); i++)
 		{
-			Scalar color = Scalar(rng.uniform(0, 255), rng.uniform(0, 255), rng.uniform(0, 255));
-			drawContours(drawing, contours, i, color, 2, 8, hierarchy, 0, Point());
+			Scalar color = Scalar(rng.uniform(0, 255), rng.uniform(0, 255), rng.uniform(0, 255)); //Тип Scalar широко используется в OpenCV для передачи значений пикселей, цвет
+			drawContours(drawing, contours, i, color, 2, 8, hierarchy, 0, Point()); //Полученные с помощью функции findContours контуры хорошо бы каким-то образом нарисовать в кадре. Машине это не нужно, зато нам это поможет лучше понять как выглядят найденные алгоритмом контуры. Поможет в этом ещё одна полезная функция — drawContours.
 			circle(drawing, mc[i], 4, color, -1, 5, 0);
 		}
 		namedWindow("Контуры", WINDOW_AUTOSIZE);
