@@ -20,7 +20,7 @@ int main()
 	//namedWindow("Hello World", 0); // название окна
 	//	imshow("Hello World", img);  //отображает изображение в градациях серого на рисунке. использует диапазон отображения по умолчанию для типа данных изображения и оптимизирует свойства рисунка, осей и объекта изображения для отображения изображения
 	//Запрос от пользователя какой файл ему требуется открыть
-	//setlocale(LC_ALL, "Russian"); //русификатор
+	setlocale(LC_ALL, "Russian"); //русификатор
 	//string filename; //строчка с названием перменной 
 	//cout << "Имя файла "; //вывод значения <<
 	//cin >> filename;  // ввод значения >>
@@ -30,7 +30,7 @@ int main()
 
 
 
-	//Блок загрузки изображения
+	//Блок загрузки изображения, Оператор Canny
 	Mat img; //создает матрицу
 	img = imread("image1.jpg", 1); //image.jpg (imread -  считывает изображение из файла, заданного , выводя формат файла из его содержимого.)
 	namedWindow("Hello World", WINDOW_AUTOSIZE); // название окна, авторазмер
@@ -48,15 +48,44 @@ int main()
 	namedWindow("Серое изображение", WINDOW_AUTOSIZE);
 	imshow("Серое изображение", canny_output);
 	imwrite("canny_output.jpg", canny_output);
-	waitKey(0);
+	
+	     // Моменты и центр масс findContours
+		RNG rng(12345);
+		vector<vector<Point>>contours;
+		vector<Vec4i>hierarchy;
+		findContours(canny_output, contours, hierarchy, RETR_TREE, CHAIN_APPROX_SIMPLE, Point(0, 0));
+		vector<Moments>mu(contours.size());
+		for (int i = 0; i < contours.size(); i++)
+		{
+			mu[i] = moments(contours[i], false);
+		}
+
+		vector <Point2f>mc(contours.size());
+		for (int i = 0; i < contours.size(); i++)
+		{
+			mc[i] = Point2f(mu[i].m10 / mu[i].m00, mu[i].m01 / mu[i].m00);
+		}
+		
+		for (int i = 0; i < contours.size(); i++)
+		{
+			printf("Контур № %d: центр масс - x = %.2f y=%.2f; длина - %.2f\n", i, mu[i].m10 / mu[i].m00, mu[i].m01 / mu[i].m00, arcLength(contours[i], true));
+		}
+		// Рисование контуров
+		Mat drawing = Mat::zeros(canny_output.size(), CV_8UC3); // CV_8UC3 изображение без знака с 3 каналами
+		for (int i = 0; i < contours.size(); i++)
+		{
+			Scalar color = Scalar(rng.uniform(0, 255), rng.uniform(0, 255), rng.uniform(0, 255));
+			drawContours(drawing, contours, i, color, 2, 8, hierarchy, 0, Point());
+			circle(drawing, mc[i], 4, color, -1, 5, 0);
+		}
+		namedWindow("Контуры", WINDOW_AUTOSIZE);
+		imshow("Контуры", drawing);
+
+
+
+		waitKey(0);
 		system("pause");
 		return (0);
-
-
-
-	
-
-
 		
 
 
