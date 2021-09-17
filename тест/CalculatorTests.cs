@@ -1,4 +1,4 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 using mak1;
 using System;
 using System.Collections.Generic;
@@ -10,11 +10,108 @@ namespace mak1.Tests
     public class CalculatorTests
     {
         [TestMethod()]
-        public void CalculateTest()
+        public void CalculateTestPlus()
         {
-            double res = Calculator.Calculate(6, 2, "+");
-            Console.WriteLine("res = " + res);
 
-            return false;
+            double n1 = 5;
+
+
+            string operation = "+";
+
+
+            double n2 = 7;
+
+            double expected = 12;
+
+            double actual = Calculator.Calculate(n1, n2, operation);
+
+
+
+
+            Assert.AreEqual(expected, actual);
+        }
+        [TestMethod()]
+        public void CalculateTestMinus()
+        {
+
+            double n1 = 12;
+
+
+            string operation = "-";
+
+
+            double n2 = 7;
+
+            double expected = 5;
+
+            double actual = Calculator.Calculate(n1, n2, operation);
+
+            Assert.AreEqual(expected, actual);
+        }
+        [TestMethod()]
+        public void CalculateTestUmnojenie()
+        {
+
+            double n1 = 5;
+
+
+            string operation = "*";
+
+
+            double n2 = 5;
+
+            double expected = 25;
+
+            double actual = Calculator.Calculate(n1, n2, operation);
+
+
+
+
+            Assert.AreEqual(expected, actual);
+        }
+        [TestMethod()]
+        public void CalculateTestDelenie()
+        {
+
+            double n1 = 10;
+
+
+            string operation = "/";
+
+
+            double n2 = 2;
+
+            double expected = 5;
+
+            double actual = Calculator.Calculate(n1, n2, operation);
+
+
+
+
+            Assert.AreEqual(expected, actual);
+        }
+        [TestMethod()]
+        [ExpectedException (typeof(DivideByZeroException))]
+        public void CalculateTestDelenieNaNull()
+        {
+
+            double n1 = 10;
+
+
+            string operation = "/";
+            
+
+            double n2 = 0; 
+            
+
+            
+
+            double actual = Calculator.Calculate(n1, n2, operation);
+
+
+
+
+            
+        }
     }
 }
