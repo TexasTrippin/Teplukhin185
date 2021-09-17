@@ -8,10 +8,10 @@ using System.Threading.Tasks;
 
 namespace mak1.Tests
 {
-    [TestClass()]
+    [TestClass()] //обозначает класс, содержащий модульные тесты.
     public class PasswordCheckerTests
     {
-        [TestMethod()]
+        [TestMethod()] // указывает, что метод — это метода теста.
         public void Check_8Symbols_ReturnsTrue()
         {
             // Arrange
