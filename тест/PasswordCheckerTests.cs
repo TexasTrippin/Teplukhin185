@@ -22,7 +22,7 @@ namespace mak1.Tests
             // Act действие
             bool actual = PasswordChecker.validatePassword(password);
 
-            // Assert послеусловие
+            // Assert постусловие
             Assert.AreEqual(expected, actual);
         }
 
