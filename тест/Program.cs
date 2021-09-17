@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -26,9 +26,11 @@ namespace mak1
             }
             else if (operation == "/")
             {
-                if (n2 != 0)
-                    return n1 / n2;
-                else Console.WriteLine("Неизвестный оператор");
+                if (n2 == 0)
+                    throw new DivideByZeroException();
+
+    
+                return n1 / n2;
             }
 
 
@@ -44,10 +46,10 @@ namespace mak1
             Console.WriteLine("Введите первое число:");
             double n1 = Int32.Parse(Console.ReadLine());
 
-            Console.Write("\nВведите оператор:");
+            Console.WriteLine("\nВведите оператор:");
             string operation = Console.ReadLine();
 
-            Console.Write("\nВведите второе число:");
+            Console.WriteLine("\nВведите второе число:");
             double n2 = Int32.Parse(Console.ReadLine());
 
             double res = Calculator.Calculate(n1, n2, operation );
