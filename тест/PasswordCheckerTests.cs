@@ -14,15 +14,15 @@ namespace mak1.Tests
         [TestMethod()] // указывает, что метод — это метода теста.
         public void Check_8Symbols_ReturnsTrue()
         {
-            // Arrange
+            // Arrange предусловие
 
             string password = "ASDqwe123$";
             bool expected = true;
 
-            // Act
+            // Act действие
             bool actual = PasswordChecker.validatePassword(password);
 
-            // Assert
+            // Assert послеусловие
             Assert.AreEqual(expected, actual);
         }
 
