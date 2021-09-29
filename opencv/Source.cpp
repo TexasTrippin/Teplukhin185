@@ -53,7 +53,7 @@ int main()
 		RNG rng(12345); // генератор случайных чисел
 		vector<vector<Point>>contours; // вектор
 		vector<Vec4i>hierarchy; 
-		findContours(canny_output, contours, hierarchy, RETR_TREE, CHAIN_APPROX_SIMPLE, Point(0, 0)); // нахождение контуров
+		findContours(canny_output, contours, hierarchy, RETR_TREE, CHAIN_APPROX_SIMPLE, Point(0, 0)); // нахождение контуров ,RETR_EXTERNAL - удаляет внутренние контуры  ,CHAIN_APPROX_SIMPLE - нужен для экономии памяти: если линия, то хранит только точки начала и конца.
 		vector<Moments>mu(contours.size());
 		for (int i = 0; i < contours.size(); i++)
 		{
