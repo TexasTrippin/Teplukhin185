@@ -18,7 +18,7 @@ namespace mak1
             }
             else if (operation == "-")
             {
-                return  n1 - n2;
+                return n1 - n2;
             }
             else if (operation == "*")
             {
@@ -27,11 +27,25 @@ namespace mak1
             else if (operation == "/")
             {
                 if (n2 == 0)
-                    throw new DivideByZeroException();
+                {
+                    throw new DivideByZeroException("Не делите на ноль!");
+                }
+                try //попытка выполнения кода
+                {
+                    
+                    return n1 / n2;
+                }
+                catch (DivideByZeroException e) //Обработка исключений
+                {
+                    Console.WriteLine($"Ошибка: {e.Message}");
+                }
 
-    
-                return n1 / n2;
+
+
+
             }
+
+
 
 
 
@@ -42,7 +56,7 @@ namespace mak1
         }
         static void Main(string[] args)
         {
-           
+
             Console.WriteLine("Введите первое число:");
             double n1 = Int32.Parse(Console.ReadLine());
 
@@ -52,10 +66,10 @@ namespace mak1
             Console.WriteLine("\nВведите второе число:");
             double n2 = Int32.Parse(Console.ReadLine());
 
-            double res = Calculator.Calculate(n1, n2, operation );
+            double res = Calculator.Calculate(n1, n2, operation);
             Console.WriteLine("Результат = " + res);
 
-            
+
 
         }
     }
