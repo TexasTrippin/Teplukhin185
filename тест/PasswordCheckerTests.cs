@@ -1,172 +1,117 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 using mak1;
 using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 
 namespace mak1.Tests
 {
-    [TestClass()] //обозначает класс, содержащий модульные тесты.
-    public class PasswordCheckerTests
+    [TestClass()]
+    public class CalculatorTests
     {
-        [TestMethod()] // указывает, что метод — это метода теста.
-        public void Check_8Symbols_ReturnsTrue()
-        {
-            // Arrange предусловие
-
-            string password = "ASDqwe123$";
-            bool expected = true;
-
-            // Act действие
-            bool actual = PasswordChecker.validatePassword(password);
-
-            // Assert постусловие
-            Assert.AreEqual(expected, actual);
-        }
-
         [TestMethod()]
-        public void Check_4Symbols_ReturnsFalse()
+        public void CalculateTestPlus()
         {
-            // Arrange
 
-            string password = "Qw$1";
-            bool expected = false;
+            double n1 = 5;
 
-            // Act
-            bool actual = PasswordChecker.validatePassword(password);
 
-            // Assert
-            Assert.IsFalse (actual);
-        }
-        [TestMethod()]
-        public void Check_21Symbols_ReturnsFalse()
-        {
-            // Arrange
+            string operation = "+";
 
-            string password = "Qwertyuiodsadasdsada$";
-            bool expected = false;
 
-            // Act
-            bool actual = PasswordChecker.validatePassword(password);
+            double n2 = 7;
 
-            // Assert
-            Assert.IsFalse(actual);
-        }
+            double expected = 12;
 
-        [TestMethod()]
-        public void Numbers_ReturnsTrue()
-        {
-            // Arrange
+            double actual = Calculator.Calculate(n1, n2, operation); //Проверяет, равны ли указанные объекты, и выдает исключение, если два объекта не равны.
 
-            string password = "Fsjafjasgfjsa123#";
-            bool expected = true;
 
-            // Act
-            bool actual = PasswordChecker.validatePassword(password);
 
-            // Assert
+
             Assert.AreEqual(expected, actual);
         }
         [TestMethod()]
-        public void Check_NumbersNot_ReturnsFalse()
+        public void CalculateTestMinus()
         {
-            // Arrange
 
-            string password = "Fsjafjasgfjsa";
-            bool expected = false;
+            double n1 = 12;
 
-            // Act
-            bool actual = PasswordChecker.validatePassword(password);
 
-            // Assert
-            Assert.IsFalse(actual);
-        }
-        [TestMethod()]
-        public void SpecialSymbols_ReturnsTrue()
-        {
-            // Arrange
+            string operation = "-";
 
-            string password = "Djsmiavhnu$123";
-            bool expected = true;
 
-            // Act
-            bool actual = PasswordChecker.validatePassword(password);
+            double n2 = 7;
 
-            // Assert
-            Assert.AreEqual(expected, actual);
-        }
+            double expected = 5;
 
-        [TestMethod()]
-        public void SpecialSymbolsNot_ReturnsFalse()
-        {
-            // Arrange
+            double actual = Calculator.Calculate(n1, n2, operation);
 
-            string password = "Djsmiavhnu";
-            bool expected = false;
-
-            // Act
-            bool actual = PasswordChecker.validatePassword(password);
-
-            // Assert
-            Assert.IsFalse(actual);
-        }
-        [TestMethod()]
-        public void ZaglavnBukva_ReturnsTrue()
-        {
-            // Arrange
-
-            string password = "Fdasdds123%";
-            bool expected = true;
-
-            // Act
-            bool actual = PasswordChecker.validatePassword(password);
-
-            // Assert
             Assert.AreEqual(expected, actual);
         }
         [TestMethod()]
-        public void ZaglavnBukvaNot_ReturnsFalse()
+        public void CalculateTestUmnojenie()
         {
-            // Arrange
 
-            string password = "dgdsjgiasiny";
-            bool expected = false;
+            double n1 = 5;
 
-            // Act
-            bool actual = PasswordChecker.validatePassword(password);
 
-            // Assert
-            Assert.IsFalse(actual);
-        }
-        [TestMethod()]
-        public void StrochnieBukvi_ReturnsTrue()
-        {
-            // Arrange
+            string operation = "*";
 
-            string password = "Fdasdds123%";
-            bool expected = true;
 
-            // Act
-            bool actual = PasswordChecker.validatePassword(password);
+            double n2 = 5;
 
-            // Assert
+            double expected = 25;
+
+            double actual = Calculator.Calculate(n1, n2, operation);
+
+
+
+
             Assert.AreEqual(expected, actual);
         }
         [TestMethod()]
-        public void StrochnieBukviNot_ReturnsFalse()
+        public void CalculateTestDelenie()
         {
-            // Arrange
 
-            string password = "FADADFAFA";
-            bool expected = false;
+            double n1 = 10;
 
-            // Act
-            bool actual = PasswordChecker.validatePassword(password);
 
-            // Assert
-            Assert.IsFalse(actual);
+            string operation = "/";
+
+
+            double n2 = 2;
+
+            double expected = 5;
+
+            double actual = Calculator.Calculate(n1, n2, operation);
+
+
+
+
+            Assert.AreEqual(expected, actual);
+        }
+        [TestMethod()]
+        [ExpectedException(typeof(DivideByZeroException ))]
+        public void CalculateTestDelenieNaNull()
+        {
+
+            double n1 = 10;
+
+
+            string operation = "/";
+
+
+            double n2 = 0;
+
+
+
+
+            double actual = Calculator.Calculate(n1, n2, operation);
+
+
+
+
+
         }
     }
 }
