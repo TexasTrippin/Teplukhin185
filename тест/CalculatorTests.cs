@@ -23,7 +23,7 @@ namespace mak1.Tests
 
             double expected = 12;
 
-            double actual = Calculator.Calculate(n1, n2, operation);
+            double actual = Calculator.Calculate(n1, n2, operation); //Проверяет, равны ли указанные объекты, и выдает исключение, если два объекта не равны.
 
 
 
