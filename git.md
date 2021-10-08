@@ -4,6 +4,7 @@
 4. git add . - добавление файлов . нужна чтобы добавить все файлы
 5. git commit -m "wpf" - commit фиксация изменений , -m сокращение от message  "wpf" само сообщение
 6.  git push https://TexasTrippin:token@github.com/TexasTrippin/Teplukhin185.git 
+7.  git pull - изменение с удаленного на локальный
 
 
 
