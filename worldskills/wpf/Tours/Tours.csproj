@@ -56,6 +56,9 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="OpenCV.xaml.cs">
+      <DependentUpon>OpenCV.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Test.xaml.cs">
       <DependentUpon>Test.xaml</DependentUpon>
     </Compile>
@@ -96,9 +99,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Manager.cs" />
-    <Compile Include="OpenCV.xaml.cs">
-      <DependentUpon>OpenCV.xaml</DependentUpon>
-    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -128,10 +128,13 @@
     <None Include="logo.png" />
   </ItemGroup>
   <ItemGroup>
+    <Resource Include="Resources\Рисование Контуров.png" />
+  </ItemGroup>
+  <ItemGroup>
     <None Include="Resources\test.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Рисование Контуров.png" />
+    <Resource Include="test.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

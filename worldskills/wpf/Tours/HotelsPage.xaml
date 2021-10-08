@@ -10,7 +10,7 @@
 
     <Grid>
         <Button Content="Go"  Background="#fac716" Click="Button_Click"> </Button>
-        <Button Content="OpenCV" Background="#fac716" Width="175" Height="30" Margin="5" HorizontalAlignment="Left" ></Button>
-        <Button Content="Test" Background="#fac716" Width="175" Height="30" Margin="5" HorizontalAlignment="Right" ></Button>
+        <Button Content="OpenCV" Background="#fac716" Width="175" Height="30" Margin="5" HorizontalAlignment="Left" Click="Button_Click_1"  ></Button>
+        <Button Content="Test" Background="#fac716" Width="175" Height="30" Margin="5" HorizontalAlignment="Right" Click="Button_Click_2" ></Button>
     </Grid>
 </Page>

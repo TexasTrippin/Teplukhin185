@@ -30,14 +30,14 @@ namespace Tours
             Manager.MainFrame.Navigate(new AddEditPage()); 
         }
 
-        /*private void Button_Click_OpenCV(object sender, RoutedEventArgs e)
+        private void Button_Click_1(object sender, RoutedEventArgs e)
         {
-        
+            Manager.MainFrame.Navigate(new OpenCV());
         }
 
-        private void Button_Click_Test(object sender, RoutedEventArgs e)
+        private void Button_Click_2(object sender, RoutedEventArgs e)
         {
-            
-        }*/
+            Manager.MainFrame.Navigate(new Test());
+        }
     }
 }

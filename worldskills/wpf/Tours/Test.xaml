@@ -9,6 +9,7 @@
       Title="Test">
 
     <Grid>
-        <Image Source="pack://siteoforigin:,,,/Resources/test.png" Margin="0,0,-27,-376"> </Image>
+        <Image Source="test.png" Margin="76,10,74,46" RenderTransformOrigin="0.639,0.731"> </Image>
+        
     </Grid>
 </Page>

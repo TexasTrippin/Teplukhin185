@@ -9,6 +9,11 @@
       Title="OpenCV">
 
     <Grid>
-        <Image> </Image>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="399*"/>
+            <RowDefinition Height="51*"/>
+            <RowDefinition Height="29*"/>
+        </Grid.RowDefinitions>
+        <Image Source="Resources/Рисование Контуров.png" Margin="-20,48,-14,10" Grid.RowSpan="2"/>
     </Grid>
 </Page>
