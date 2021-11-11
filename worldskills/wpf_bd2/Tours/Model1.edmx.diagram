@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="95c2fd9ed381401fa5a671ae30ad6154" Name="Diagram1">
+        <EntityTypeShape EntityType="TMModel.Country" Width="1.5" PointX="11.25" PointY="3.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="TMModel.Hotel" Width="1.5" PointX="2.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="TMModel.HotelComment" Width="1.5" PointX="8.5" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="TMModel.HotelImage" Width="1.5" PointX="5.5" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="TMModel.sysdiagrams" Width="1.5" PointX="1.5" PointY="0.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="TMModel.Tour" Width="1.5" PointX="6.25" PointY="5.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="TMModel.Type" Width="1.5" PointX="9.375" PointY="5.125" IsExpanded="true" />
+        <AssociationConnector Association="TMModel.FK_Hotel_Country" ManuallyRouted="false" />
+        <AssociationConnector Association="TMModel.FK_HotelComment_Hotel" ManuallyRouted="false" />
+        <AssociationConnector Association="TMModel.FK_HotelImage_Hotel" ManuallyRouted="false" />
+        <AssociationConnector Association="TMModel.HotelOfTour" ManuallyRouted="false" />
+        <AssociationConnector Association="TMModel.TypeOfTour" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
