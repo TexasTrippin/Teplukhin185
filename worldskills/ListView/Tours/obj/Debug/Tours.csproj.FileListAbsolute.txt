@@ -1,0 +1,123 @@
+\\192.168.1.1\студенты\185 - 2 группа\0 Теплухин\Tours\Tours\bin\Debug\Tours.exe.config
+\\192.168.1.1\студенты\185 - 2 группа\0 Теплухин\Tours\Tours\bin\Debug\Tours.exe
+\\192.168.1.1\студенты\185 - 2 группа\0 Теплухин\Tours\Tours\bin\Debug\Tours.pdb
+\\192.168.1.1\студенты\185 - 2 группа\0 Теплухин\Tours\Tours\obj\Debug\Tours.csproj.AssemblyReference.cache
+\\192.168.1.1\студенты\185 - 2 группа\0 Теплухин\Tours\Tours\obj\Debug\HotelsPage.g.cs
+\\192.168.1.1\студенты\185 - 2 группа\0 Теплухин\Tours\Tours\obj\Debug\MainWindow.g.cs
+\\192.168.1.1\студенты\185 - 2 группа\0 Теплухин\Tours\Tours\obj\Debug\App.g.cs
+\\192.168.1.1\студенты\185 - 2 группа\0 Теплухин\Tours\Tours\obj\Debug\Tours_MarkupCompile.cache
+\\192.168.1.1\студенты\185 - 2 группа\0 Теплухин\Tours\Tours\obj\Debug\Tours_MarkupCompile.lref
+\\192.168.1.1\студенты\185 - 2 группа\0 Теплухин\Tours\Tours\obj\Debug\HotelsPage.baml
+\\192.168.1.1\студенты\185 - 2 группа\0 Теплухин\Tours\Tours\obj\Debug\MainWindow.baml
+\\192.168.1.1\студенты\185 - 2 группа\0 Теплухин\Tours\Tours\obj\Debug\Tours.g.resources
+\\192.168.1.1\студенты\185 - 2 группа\0 Теплухин\Tours\Tours\obj\Debug\Tours.Properties.Resources.resources
+\\192.168.1.1\студенты\185 - 2 группа\0 Теплухин\Tours\Tours\obj\Debug\Tours.csproj.GenerateResource.cache
+\\192.168.1.1\студенты\185 - 2 группа\0 Теплухин\Tours\Tours\obj\Debug\Tours.csproj.CoreCompileInputs.cache
+\\192.168.1.1\студенты\185 - 2 группа\0 Теплухин\Tours\Tours\obj\Debug\Tours.exe
+\\192.168.1.1\студенты\185 - 2 группа\0 Теплухин\Tours\Tours\obj\Debug\Tours.pdb
+\\192.168.1.1\студенты\185 - 2 группа\0 Теплухин\Tours\Tours\obj\Debug\AddEditPage.g.cs
+\\192.168.1.1\студенты\185 - 2 группа\0 Теплухин\Tours\Tours\obj\Debug\AddEditPage.baml
+\\192.168.1.1\студенты\185 - 2 группа\0 Теплухин\Tours\Tours\obj\Debug\App.baml
+\\192.168.1.1\студенты\185 - 2 группа\0 Теплухин\Tours\Tours\obj\Debug\OpenCV.g.cs
+\\192.168.1.1\студенты\185 - 2 группа\0 Теплухин\Tours\Tours\obj\Debug\Test.g.cs
+\\192.168.1.1\студенты\185 - 2 группа\0 Теплухин\Tours\Tours\obj\Debug\OpenCV.baml
+\\192.168.1.1\студенты\185 - 2 группа\0 Теплухин\Tours\Tours\obj\Debug\Test.baml
+\\Pdc\студенты\185 - 2 группа\0 Теплухин\Tours\Tours\obj\Debug\Tours.csprojAssemblyReference.cache
+\\Pdc\студенты\185 - 2 группа\0 Теплухин\Tours\Tours\obj\Debug\AddEditPage.g.cs
+\\Pdc\студенты\185 - 2 группа\0 Теплухин\Tours\Tours\obj\Debug\HotelsPage.g.cs
+\\Pdc\студенты\185 - 2 группа\0 Теплухин\Tours\Tours\obj\Debug\MainWindow.g.cs
+\\Pdc\студенты\185 - 2 группа\0 Теплухин\Tours\Tours\obj\Debug\Test.g.cs
+\\Pdc\студенты\185 - 2 группа\0 Теплухин\Tours\Tours\obj\Debug\App.g.cs
+\\Pdc\студенты\185 - 2 группа\0 Теплухин\Tours\Tours\obj\Debug\Tours_MarkupCompile.cache
+\\Pdc\студенты\185 - 2 группа\0 Теплухин\Tours\Tours\obj\Debug\Tours_MarkupCompile.lref
+\\Pdc\студенты\185 - 2 группа\0 Теплухин\Tours\Tours\obj\Debug\Tours.exe
+\\Pdc\студенты\185 - 2 группа\0 Теплухин\Tours\Tours\obj\Debug\Tours.pdb
+\\Pdc\студенты\185 - 2 группа\0 Теплухин\Tours\Tours\bin\Debug\Tours.exe.config
+\\Pdc\студенты\185 - 2 группа\0 Теплухин\Tours\Tours\bin\Debug\Tours.exe
+\\Pdc\студенты\185 - 2 группа\0 Теплухин\Tours\Tours\bin\Debug\Tours.pdb
+\\Pdc\студенты\185 - 2 группа\0 Теплухин\Tours\Tours\obj\Debug\App.baml
+\\Pdc\студенты\185 - 2 группа\0 Теплухин\Tours\Tours\obj\Debug\AddEditPage.baml
+\\Pdc\студенты\185 - 2 группа\0 Теплухин\Tours\Tours\obj\Debug\HotelsPage.baml
+\\Pdc\студенты\185 - 2 группа\0 Теплухин\Tours\Tours\obj\Debug\MainWindow.baml
+\\Pdc\студенты\185 - 2 группа\0 Теплухин\Tours\Tours\obj\Debug\OpenCV.baml
+\\Pdc\студенты\185 - 2 группа\0 Теплухин\Tours\Tours\obj\Debug\Test.baml
+\\Pdc\студенты\185 - 2 группа\0 Теплухин\Tours\Tours\obj\Debug\Tours.g.resources
+\\Pdc\студенты\185 - 2 группа\0 Теплухин\Tours\Tours\obj\Debug\Tours.Properties.Resources.resources
+\\Pdc\студенты\185 - 2 группа\0 Теплухин\Tours\Tours\obj\Debug\Tours.csproj.GenerateResource.cache
+\\Pdc\студенты\185 - 2 группа\0 Теплухин\Tours\Tours\obj\Debug\Tours.csproj.CoreCompileInputs.cache
+\\Pdc\студенты\185 - 2 группа\0 Теплухин\Tours\Tours\obj\Debug\OpenCV.g.cs
+\\192.168.1.1\студенты\185 - 2 группа\0 Теплухин\Tours\Tours\obj\Debug\Tours_Content.g.cs
+\\192.168.1.1\студенты\185 - 2 группа\0 Теплухин\Tours\Tours\bin\Debug\EntityFramework.dll
+\\192.168.1.1\студенты\185 - 2 группа\0 Теплухин\Tours\Tours\bin\Debug\EntityFramework.SqlServer.dll
+\\192.168.1.1\студенты\185 - 2 группа\0 Теплухин\Tours\Tours\bin\Debug\EntityFramework.xml
+\\192.168.1.1\студенты\185 - 2 группа\0 Теплухин\Tours\Tours\bin\Debug\EntityFramework.SqlServer.xml
+\\192.168.1.1\студенты\185 - 2 группа\0 Теплухин\Tours\Tours\bin\Debug\ru\EntityFramework.resources.dll
+\\192.168.1.1\студенты\185 - 2 группа\0 Теплухин\Tours\Tours\obj\Debug\Tours.csproj.CopyComplete
+C:\Users\Администратор\Desktop\мусор\Новая папка\Teplukhin185\worldskills\wpf_bd\Tours\bin\Debug\Tours.exe.config
+C:\Users\Администратор\Desktop\мусор\Новая папка\Teplukhin185\worldskills\wpf_bd\Tours\bin\Debug\Tours.exe
+C:\Users\Администратор\Desktop\мусор\Новая папка\Teplukhin185\worldskills\wpf_bd\Tours\bin\Debug\Tours.pdb
+C:\Users\Администратор\Desktop\мусор\Новая папка\Teplukhin185\worldskills\wpf_bd\Tours\bin\Debug\EntityFramework.dll
+C:\Users\Администратор\Desktop\мусор\Новая папка\Teplukhin185\worldskills\wpf_bd\Tours\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Администратор\Desktop\мусор\Новая папка\Teplukhin185\worldskills\wpf_bd\Tours\bin\Debug\EntityFramework.xml
+C:\Users\Администратор\Desktop\мусор\Новая папка\Teplukhin185\worldskills\wpf_bd\Tours\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Администратор\Desktop\мусор\Новая папка\Teplukhin185\worldskills\wpf_bd\Tours\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\Администратор\Desktop\мусор\Новая папка\Teplukhin185\worldskills\wpf_bd\Tours\bin\Debug\ru\EntityFramework.SqlServer.resources.dll
+C:\Users\Администратор\Desktop\мусор\Новая папка\Teplukhin185\worldskills\wpf_bd\Tours\obj\Debug\Tours.csproj.AssemblyReference.cache
+C:\Users\Администратор\Desktop\мусор\Новая папка\Teplukhin185\worldskills\wpf_bd\Tours\obj\Debug\AddEditPage.g.cs
+C:\Users\Администратор\Desktop\мусор\Новая папка\Teplukhin185\worldskills\wpf_bd\Tours\obj\Debug\HotelsPage.g.cs
+C:\Users\Администратор\Desktop\мусор\Новая папка\Teplukhin185\worldskills\wpf_bd\Tours\obj\Debug\MainWindow.g.cs
+C:\Users\Администратор\Desktop\мусор\Новая папка\Teplukhin185\worldskills\wpf_bd\Tours\obj\Debug\OpenCV.g.cs
+C:\Users\Администратор\Desktop\мусор\Новая папка\Teplukhin185\worldskills\wpf_bd\Tours\obj\Debug\Test.g.cs
+C:\Users\Администратор\Desktop\мусор\Новая папка\Teplukhin185\worldskills\wpf_bd\Tours\obj\Debug\App.g.cs
+C:\Users\Администратор\Desktop\мусор\Новая папка\Teplukhin185\worldskills\wpf_bd\Tours\obj\Debug\Tours_Content.g.cs
+C:\Users\Администратор\Desktop\мусор\Новая папка\Teplukhin185\worldskills\wpf_bd\Tours\obj\Debug\Tours_MarkupCompile.cache
+C:\Users\Администратор\Desktop\мусор\Новая папка\Teplukhin185\worldskills\wpf_bd\Tours\obj\Debug\Tours_MarkupCompile.lref
+C:\Users\Администратор\Desktop\мусор\Новая папка\Teplukhin185\worldskills\wpf_bd\Tours\obj\Debug\App.baml
+C:\Users\Администратор\Desktop\мусор\Новая папка\Teplukhin185\worldskills\wpf_bd\Tours\obj\Debug\AddEditPage.baml
+C:\Users\Администратор\Desktop\мусор\Новая папка\Teplukhin185\worldskills\wpf_bd\Tours\obj\Debug\HotelsPage.baml
+C:\Users\Администратор\Desktop\мусор\Новая папка\Teplukhin185\worldskills\wpf_bd\Tours\obj\Debug\MainWindow.baml
+C:\Users\Администратор\Desktop\мусор\Новая папка\Teplukhin185\worldskills\wpf_bd\Tours\obj\Debug\OpenCV.baml
+C:\Users\Администратор\Desktop\мусор\Новая папка\Teplukhin185\worldskills\wpf_bd\Tours\obj\Debug\Test.baml
+C:\Users\Администратор\Desktop\мусор\Новая папка\Teplukhin185\worldskills\wpf_bd\Tours\obj\Debug\Tours.g.resources
+C:\Users\Администратор\Desktop\мусор\Новая папка\Teplukhin185\worldskills\wpf_bd\Tours\obj\Debug\Tours.Properties.Resources.resources
+C:\Users\Администратор\Desktop\мусор\Новая папка\Teplukhin185\worldskills\wpf_bd\Tours\obj\Debug\Tours.csproj.GenerateResource.cache
+C:\Users\Администратор\Desktop\мусор\Новая папка\Teplukhin185\worldskills\wpf_bd\Tours\obj\Debug\Tours.csproj.CoreCompileInputs.cache
+C:\Users\Администратор\Desktop\мусор\Новая папка\Teplukhin185\worldskills\wpf_bd\Tours\obj\Debug\Tours.csproj.CopyComplete
+C:\Users\Администратор\Desktop\мусор\Новая папка\Teplukhin185\worldskills\wpf_bd\Tours\obj\Debug\Tours.exe
+C:\Users\Администратор\Desktop\мусор\Новая папка\Teplukhin185\worldskills\wpf_bd\Tours\obj\Debug\Tours.pdb
+C:\Users\Администратор\Desktop\мусор\Новая папка\Teplukhin185\worldskills\wpf_bd\Tours\obj\Debug\ToursPage.g.cs
+C:\Users\Администратор\Desktop\мусор\Новая папка\Teplukhin185\worldskills\wpf_bd\Tours\obj\Debug\ToursPage.baml
+C:\Users\Администратор\Desktop\Новая папка (4)\Teplukhin185\worldskills\ListView\Tours\bin\Debug\Tours.exe.config
+C:\Users\Администратор\Desktop\Новая папка (4)\Teplukhin185\worldskills\ListView\Tours\bin\Debug\Tours.exe
+C:\Users\Администратор\Desktop\Новая папка (4)\Teplukhin185\worldskills\ListView\Tours\bin\Debug\Tours.pdb
+C:\Users\Администратор\Desktop\Новая папка (4)\Teplukhin185\worldskills\ListView\Tours\bin\Debug\EntityFramework.dll
+C:\Users\Администратор\Desktop\Новая папка (4)\Teplukhin185\worldskills\ListView\Tours\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Администратор\Desktop\Новая папка (4)\Teplukhin185\worldskills\ListView\Tours\bin\Debug\EntityFramework.xml
+C:\Users\Администратор\Desktop\Новая папка (4)\Teplukhin185\worldskills\ListView\Tours\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Администратор\Desktop\Новая папка (4)\Teplukhin185\worldskills\ListView\Tours\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\Администратор\Desktop\Новая папка (4)\Teplukhin185\worldskills\ListView\Tours\bin\Debug\ru\EntityFramework.SqlServer.resources.dll
+C:\Users\Администратор\Desktop\Новая папка (4)\Teplukhin185\worldskills\ListView\Tours\obj\Debug\Tours.csproj.AssemblyReference.cache
+C:\Users\Администратор\Desktop\Новая папка (4)\Teplukhin185\worldskills\ListView\Tours\obj\Debug\AddEditPage.g.cs
+C:\Users\Администратор\Desktop\Новая папка (4)\Teplukhin185\worldskills\ListView\Tours\obj\Debug\HotelsPage.g.cs
+C:\Users\Администратор\Desktop\Новая папка (4)\Teplukhin185\worldskills\ListView\Tours\obj\Debug\MainWindow.g.cs
+C:\Users\Администратор\Desktop\Новая папка (4)\Teplukhin185\worldskills\ListView\Tours\obj\Debug\OpenCV.g.cs
+C:\Users\Администратор\Desktop\Новая папка (4)\Teplukhin185\worldskills\ListView\Tours\obj\Debug\Test.g.cs
+C:\Users\Администратор\Desktop\Новая папка (4)\Teplukhin185\worldskills\ListView\Tours\obj\Debug\ToursPage.g.cs
+C:\Users\Администратор\Desktop\Новая папка (4)\Teplukhin185\worldskills\ListView\Tours\obj\Debug\App.g.cs
+C:\Users\Администратор\Desktop\Новая папка (4)\Teplukhin185\worldskills\ListView\Tours\obj\Debug\Tours_Content.g.cs
+C:\Users\Администратор\Desktop\Новая папка (4)\Teplukhin185\worldskills\ListView\Tours\obj\Debug\Tours_MarkupCompile.cache
+C:\Users\Администратор\Desktop\Новая папка (4)\Teplukhin185\worldskills\ListView\Tours\obj\Debug\Tours_MarkupCompile.lref
+C:\Users\Администратор\Desktop\Новая папка (4)\Teplukhin185\worldskills\ListView\Tours\obj\Debug\App.baml
+C:\Users\Администратор\Desktop\Новая папка (4)\Teplukhin185\worldskills\ListView\Tours\obj\Debug\AddEditPage.baml
+C:\Users\Администратор\Desktop\Новая папка (4)\Teplukhin185\worldskills\ListView\Tours\obj\Debug\HotelsPage.baml
+C:\Users\Администратор\Desktop\Новая папка (4)\Teplukhin185\worldskills\ListView\Tours\obj\Debug\MainWindow.baml
+C:\Users\Администратор\Desktop\Новая папка (4)\Teplukhin185\worldskills\ListView\Tours\obj\Debug\OpenCV.baml
+C:\Users\Администратор\Desktop\Новая папка (4)\Teplukhin185\worldskills\ListView\Tours\obj\Debug\Test.baml
+C:\Users\Администратор\Desktop\Новая папка (4)\Teplukhin185\worldskills\ListView\Tours\obj\Debug\ToursPage.baml
+C:\Users\Администратор\Desktop\Новая папка (4)\Teplukhin185\worldskills\ListView\Tours\obj\Debug\Tours.g.resources
+C:\Users\Администратор\Desktop\Новая папка (4)\Teplukhin185\worldskills\ListView\Tours\obj\Debug\Tours.Properties.Resources.resources
+C:\Users\Администратор\Desktop\Новая папка (4)\Teplukhin185\worldskills\ListView\Tours\obj\Debug\Tours.csproj.GenerateResource.cache
+C:\Users\Администратор\Desktop\Новая папка (4)\Teplukhin185\worldskills\ListView\Tours\obj\Debug\Tours.csproj.CoreCompileInputs.cache
+C:\Users\Администратор\Desktop\Новая папка (4)\Teplukhin185\worldskills\ListView\Tours\obj\Debug\Tours.csproj.CopyComplete
+C:\Users\Администратор\Desktop\Новая папка (4)\Teplukhin185\worldskills\ListView\Tours\obj\Debug\Tours.exe
+C:\Users\Администратор\Desktop\Новая папка (4)\Teplukhin185\worldskills\ListView\Tours\obj\Debug\Tours.pdb
