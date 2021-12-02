@@ -7,4 +7,4 @@ https://docs.google.com/spreadsheets/d/1hLZsDyDrh7wM1b8N1THHpx855aVIKeBwG5fhXGme
 
 https://docs.google.com/spreadsheets/d/19r6nRcVm0VZ_J10AfTKfqUu6BiqrUOsFaw-8i7RsmHs/edit?usp=sharing - курсовая
 
-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 - Токен
+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 - Токен
