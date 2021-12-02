@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31402.337
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgentWebApi", "AgentWebApi\AgentWebApi.csproj", "{7C8ADECA-DCED-4814-AE9D-19D6DE3F2DFD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7C8ADECA-DCED-4814-AE9D-19D6DE3F2DFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C8ADECA-DCED-4814-AE9D-19D6DE3F2DFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C8ADECA-DCED-4814-AE9D-19D6DE3F2DFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C8ADECA-DCED-4814-AE9D-19D6DE3F2DFD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F7FD0F04-1B55-4F45-9DBB-792F1CB4BEAD}
+	EndGlobalSection
+EndGlobal
