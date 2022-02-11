@@ -4,3 +4,9 @@ C:\Users\Администратор\Desktop\CoreLib\CoreLib\obj\Debug\CoreLib.cs
 C:\Users\Администратор\Desktop\CoreLib\CoreLib\obj\Debug\CoreLib.csproj.CoreCompileInputs.cache
 C:\Users\Администратор\Desktop\CoreLib\CoreLib\obj\Debug\CoreLib.dll
 C:\Users\Администратор\Desktop\CoreLib\CoreLib\obj\Debug\CoreLib.pdb
+C:\Users\Администратор\Desktop\Новая папка\Teplukhin185\dme\CoreLib\bin\Debug\CoreLib.dll
+C:\Users\Администратор\Desktop\Новая папка\Teplukhin185\dme\CoreLib\bin\Debug\CoreLib.pdb
+C:\Users\Администратор\Desktop\Новая папка\Teplukhin185\dme\CoreLib\obj\Debug\CoreLib.csproj.AssemblyReference.cache
+C:\Users\Администратор\Desktop\Новая папка\Teplukhin185\dme\CoreLib\obj\Debug\CoreLib.csproj.CoreCompileInputs.cache
+C:\Users\Администратор\Desktop\Новая папка\Teplukhin185\dme\CoreLib\obj\Debug\CoreLib.dll
+C:\Users\Администратор\Desktop\Новая папка\Teplukhin185\dme\CoreLib\obj\Debug\CoreLib.pdb
